@@ -2,6 +2,7 @@
 
 Use Tensorflow (Lite) + OpenCV to do object detection.
 
+
 ## Download the Model
 
 The tested model can be downloaded from:
