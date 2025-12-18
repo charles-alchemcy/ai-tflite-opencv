@@ -8,9 +8,10 @@ import numpy as np
 import tensorflow.lite as tflite
 # import tflite_runtime.interpreter as tflite
 
+
 from PIL import Image
 
-CAMERA_WIDTH = 640
+CAMERA_WIDTH = 645
 CAMERA_HEIGHT = 480
 
 
