@@ -29,7 +29,6 @@ def load_model(model_path):
     interpreter.allocate_tensors()
     return interpreter
 
-
 def process_image(interpreter, image, input_index):
     r"""Process an image, Return a list of detected class ids and positions"""
     input_data = np.expand_dims(image, axis=0)  # expand to 4-dim
