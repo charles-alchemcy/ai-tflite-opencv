@@ -23,7 +23,6 @@ def load_labels(label_path):
             labels[int(m.group(1))] = m.group(2)
         return labels
 
-
 def load_model(model_path):
     r"""Load TFLite model, returns a Interpreter instance."""
     interpreter = tflite.Interpreter(model_path=model_path)
