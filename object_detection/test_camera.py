@@ -11,7 +11,7 @@ import tensorflow.lite as tflite
 
 from PIL import Image
 
-CAMERA_WIDTH = 640
+CAMERA_WIDTH = 680
 CAMERA_HEIGHT = 480
 
 def load_labels(label_path):
