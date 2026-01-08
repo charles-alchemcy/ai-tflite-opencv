@@ -11,7 +11,7 @@ import tensorflow.lite as tflite
 
 from PIL import Image
 
-CAMERA_WIDTH = 640
+CAMERA_WIDTH = 680
 CAMERA_HEIGHT = 480
 
 def load_labels(label_path):
@@ -23,13 +23,11 @@ def load_labels(label_path):
             labels[int(m.group(1))] = m.group(2)
         return labels
 
-
 def load_model(model_path):
     r"""Load TFLite model, returns a Interpreter instance."""
     interpreter = tflite.Interpreter(model_path=model_path)
     interpreter.allocate_tensors()
     return interpreter
-
 
 def process_image(interpreter, image, input_index):
     r"""Process an image, Return a list of detected class ids and positions"""
