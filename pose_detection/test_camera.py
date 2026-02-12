@@ -4,6 +4,7 @@ For Raspberry PI, please use `import tflite_runtime.interpreter as tflite` inste
 """
 import re
 import cv2
+
 import numpy as np
 
 import tensorflow.lite as tflite
@@ -12,10 +13,8 @@ import tensorflow.lite as tflite
 from PIL import Image
 
 
-CAMERA_WIDTH = 640
+CAMERA_WIDTH = 648
 CAMERA_HEIGHT = 480
-
-
 
 class Part:
     r"""Enum of Detected Part IDs, for example, 0 is Nose"""
