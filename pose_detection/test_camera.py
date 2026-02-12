@@ -13,7 +13,7 @@ import tensorflow.lite as tflite
 from PIL import Image
 
 
-CAMERA_WIDTH = 640
+CAMERA_WIDTH = 648
 CAMERA_HEIGHT = 480
 
 class Part:
