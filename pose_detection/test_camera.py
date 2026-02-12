@@ -16,8 +16,6 @@ from PIL import Image
 CAMERA_WIDTH = 640
 CAMERA_HEIGHT = 480
 
-
-
 class Part:
     r"""Enum of Detected Part IDs, for example, 0 is Nose"""
     NOSE = 0
