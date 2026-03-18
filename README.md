@@ -1,7 +1,6 @@
 # ai-tflite-opencv
 This repo contains codes that use Tensorflow (or Tensorflow Lite) + OpenCV to do object detection, classification, and Pose detection.
 
-
 ## Pre-requisite
 
 - Installed Tensorflow (or Tensorflow Lite)
