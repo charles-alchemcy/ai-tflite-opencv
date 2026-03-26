@@ -11,7 +11,6 @@ import tensorflow.lite as tflite
 
 from PIL import Image
 
-
 class Part:
     r"""Enum of Detected Part IDs, for example, 0 is Nose"""
     NOSE = 0
