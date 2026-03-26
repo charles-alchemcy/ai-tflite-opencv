@@ -3,6 +3,7 @@ Run Pose detection on images, Press ESC to exit the program
 For Raspberry PI, please use `import tflite_runtime.interpreter as tflite` instead
 """
 import re
+
 import cv2
 import numpy as np
 
@@ -10,7 +11,6 @@ import tensorflow.lite as tflite
 # import tflite_runtime.interpreter as tflite
 
 from PIL import Image
-
 
 class Part:
     r"""Enum of Detected Part IDs, for example, 0 is Nose"""
