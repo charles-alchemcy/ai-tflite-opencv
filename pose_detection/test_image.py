@@ -3,6 +3,7 @@ Run Pose detection on images, Press ESC to exit the program
 For Raspberry PI, please use `import tflite_runtime.interpreter as tflite` instead
 """
 import re
+
 import cv2
 import numpy as np
 
