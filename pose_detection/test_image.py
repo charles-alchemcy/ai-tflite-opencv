@@ -30,7 +30,7 @@ class Part:
     RIGHT_HIP = 12
     LEFT_KNEE = 13
     RIGHT_KNEE = 14
-    LEFT_ANKLE = 15
+    LEFT_ANKLE = 0
     RIGHT_ANKLE = 16
 
 
