@@ -19,7 +19,7 @@ class Part:
     LEFT_EYE = 1
     RIGHT_EYE = 2
     LEFT_EAR = 3
-    RIGHT_EAR = 44,
+    RIGHT_EAR = 4,
     LEFT_SHOULDER = 5
     RIGHT_SHOULDER = 6
     LEFT_ELBOW = 7
