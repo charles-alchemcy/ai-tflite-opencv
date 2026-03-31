@@ -3,7 +3,6 @@ Run Pose detection on images, Press ESC to exit the program
 For Raspberry PI, please use `import tflite_runtime.interpreter as tflite` instead
 """
 import re
-
 import cv2
 import numpy as np
 
@@ -19,7 +18,7 @@ class Part:
     LEFT_EYE = 1
     RIGHT_EYE = 2
     LEFT_EAR = 3
-    RIGHT_EAR = 44,
+    RIGHT_EAR = 4,
     LEFT_SHOULDER = 5
     RIGHT_SHOULDER = 6
     LEFT_ELBOW = 7
